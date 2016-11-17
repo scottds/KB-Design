@@ -1,0 +1,281 @@
+# KB-Design
+Designing a page for the doTERRA Knowledge Base
+
+<!Doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text.css" href="KB Design.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu:300i|Rubik|Open+Sans" rel="stylesheet">
+  </head>
+<body>
+  <div class="topquarter">
+  <div class="NavBar">
+  <ul id="NavBarButtons">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">Holiday Hub</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Shattuck, Scott</a>
+    <div class="dropdown-content">
+      <a href="#">Logout</a>
+    </div>
+  </li>
+    <!--<li><form style="float:right" class="search" action="action_page.php">
+  Search Google:
+  <input type="search" name="googlesearch">
+  <input type="submit">
+      </form></li> -->
+</ul>
+  </div>
+  
+  <img id="doterra" src="https://s3-us-west-2.amazonaws.com/hybrisproduction/Imagery/USA-English/16x9_1000x562_official_doterra_corporate_logo_us_web_english.jpg" alt="doTERRA Logo Green" width="200">
+
+  <h1>Lemon</h1>
+  
+  <div class="ATI">
+  <img src="http://www.giftsoftheearth.co.nz/wp-content/uploads/2014/07/aromatic_icon1.png" alt="Can be used Aromatically, Topically, or Internally" height="40">
+  </div>
+  
+  <table id="Table" style="width:60%">
+  <tr>
+    <th>SKU</th>
+    <th>Unit Size</th>
+    <th>Retail</th> 
+    <th>Wholesale</th>
+    <th>PV</th>
+  </tr>
+  <tr>
+    <td>30120001</td>
+    <td>15ml</td> 
+    <td>$13.33</td>
+    <td>$10.00</td>
+    <td>10</td>
+  </tr>
+</table>
+  
+  </div>
+  <!-- Skin Sensitivity
+
+    <table style="width:60%">
+  <tr>
+    <th>Skin Sensitivity</th>
+    <th>  </th>
+  </tr>
+  <tr>
+    <td>Neat</td>
+    <td></td>
+  </tr>
+</table> 
+  
+  -->
+ <!-- </div>
+      <div class="fade">
+  <img class="Backorder-bubble" src="http://www.iconsfind.com/wp-content/uploads/2015/12/20151229_56823196b02a4.png" alt="Image Bubble" style="height:150px;">
+      <h3 class= "Backorder-message">Seeing "backorder" for this item?</h3>
+  </div>  -->
+  <div class="background-image">
+  
+<div class="CommonIssues">
+  <ul id="CommonIssuesIndex">
+    <li style="color:red;font-size:25px"><strong>&#x1F514; Current Issues</strong></li>
+  <li><a href="news.asp">&#x2022; Seeing a "Backorder" message?</a></li>
+  <li><a href="contact.asp">&#x2022; "Why is my oil cloudy?"</a></li>
+  <li><a href="contact.asp">&#x2022; "My oil is cracked / broken / leaking."</a></li>
+  <li><a href="contact.asp">&#x2022; "My oil smells rancid."</a></li>
+
+</ul>
+  </div>
+ 
+<!-- Floating Index Bar -->
+  
+  <div class="Index">
+  <ul id="Index">
+  <!--<li><a href="https://doterra.com/US/en/p/lemon-oil">Product Information Page</a></li>-->
+  <li><a href="KB Design.html#Primary-Benefits">&#x261B; Primary Benefits</a></li>
+  <li><a href="KB Design.html#Common-Uses">&#x261B; Common Uses</a></li>
+  <li><a href="KB Design.html#Directions-for-use">&#x261B; Directions for Use</a></li>
+  <li><a href="KB Design.html#Products-with-Lemon">&#x261B; Products with Lemon</a></li>
+  <li><a href="KB Design.html#Kits-with-Lemon">&#x261B; Kits with Lemon</a></li>
+  <li><a href="KB Design.html#Upsell-Tips">&#x261B; Upsell Tips! &#x1F4B0;</a></li>
+</ul>
+  </div>
+  
+
+  <div class="Center">
+  <!--<div class="background-fixed-pic">--> 
+  <div class="LemonPic">
+<img src="https://s3-us-west-2.amazonaws.com/hybrisproduction/us/en/images/product/lemon-15ml.jpg" alt="doTERRA Lemon Essential Oil Bottle" style=width:200px>
+  </div>
+  <!-- </div> -->
+  
+ <div class="Description">
+   <div>
+     <strong class="ms-rteThemeForeColor-9-0">Plant Part:</strong>&nbsp;Rinds (Peel)<br>
+     <strong class="ms-rteThemeForeColor-9-0">Source Origin:</strong>&nbsp;Italy<br>
+     <strong class="ms-rteThemeForeColor-9-0">Extraction Method:</strong>&nbsp;Cold Pressed/Expressed<br>
+     <strong class="ms-rteThemeForeColor-9-0">Aromatic Description:</strong>&nbsp;Clean, Fresh, Citrus, Bright<br>
+     <strong class="ms-rteThemeForeColor-9-0">Main Chemical Components:</strong>&nbsp;Limonene, &szlig; pinenes, y-terpimene</div>
+  </div>
+  
+  
+  
+  <h1><a id="Primary-Benefits">Primary Benefits</a></h1>
+  
+  <p>The top-selling d&omacr;TERRA essential oil, Lemon has multiple benefits and uses. Lemon is a powerful cleansing agent that purifies the air and surfaces, and can be used as a non-toxic cleaner throughout the home. When added to water, Lemon provides a refreshing and healthy boost throughout the day. Lemon is frequently added to food to enhance the flavor of desserts and main dishes. Taken internally, Lemon provides cleansing and digestive benefits and supports healthy respiratory function. When diffused, Lemon is very uplifting and energizing and has been shown to help improve mood.</p>
+  <br>
+  <ul class="Centered">
+    <li>Cleanses and purifies the air and surfaces</li> 
+    <li>Naturally cleanses the body and aids in digestion</li>
+    <li>Supports healthy respiratory function</li>
+    <li>Promotes a positive mood</li>
+  </ul>
+  
+    <h1><a id="Common-Uses">Common Uses</a></h1>
+  
+   <ul class="Centered">
+     <li>Take internally to assist with seasonal respiratory discomfort.</li>
+<li>Add Lemon oil to a spray bottle of water to clean tables, countertops, and other surfaces. Lemon oil also makes a great furniture polish; simply add a few drops to olive oil to clean, protect, and shine wood finishes.</li>
+<li>Use a cloth soaked in Lemon oil to preserve and protect your leather furniture and other leather surfaces or garments.</li>
+     <li>Lemon oil is a great remedy for the early stages of tarnish on silver and other metals.</li> 
+     <li>Diffuse to create an uplifting environment.</li>
+  </ul>
+  
+    <h1><a id="Directions-for-use">Directions for Use</a></h1>
+  
+  <p><strong>Diffusion:</strong> Use three to four drops in the diffuser of your choice.</p> 
+<br>
+  <p><strong>Internal use:</strong> Dilute one drop in 4 fl. oz. of liquid.</p>
+<br>
+  <p><strong>Topical use:</strong> Apply one to two drops to desired area. Dilute with dTERRA Fractionated Coconut Oil to minimize any skin sensitivity. See additional precautions below.</p>
+  
+    <h1><a id="Products-with-Lemon">Products with Lemon</a></h1>
+  
+  <ul class="Centered">
+    <li>Cheer</li>
+    <li>Citrus Bliss</li>
+    <li>Breathe</li>
+    <li>Elevation</li>
+    <li>Lemon</li>
+    <li>Slim& Sassy Products</li>
+    <li>A2Z Chewables</li>
+    <li>GX Assist</li>
+    <li>TriEase Softgels</li>
+    <li>Citrus Bliss Invigorating Bath Bar</li>
+    <li>TerraGreens</li>
+    <li>Conditioner</li>
+  </ul>
+  
+    <h1><a id="Kits-with-Lemon">Kits with Lemon</a></h1>
+  <table class="wikitable-ms-rteTable-6">
+    <tbody>
+      <tr>
+        <th style="width:72px;" class="KitTableHead">SKU</th>
+        <th style="width:200px;" class="KitTableHead">Kit Name</th>
+        <th style="width:120px;" class="KitTableHead">Unit Size</th>
+        <th style="width:88px;" class="KitTableHead">Retail</th>
+        <th style="width:71px;" class="KitTableHead">Wholesale</th>
+        <th style="width:34px;" class="KitTableHead">PV</th>
+      </tr>
+      <tr>
+        <td>32180001</td>
+        <td>Introductory Kit</td>
+        <td>5ml</td>
+        <td>$26.67</td>
+        <td>$20.00</td>
+        <td>15</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>3214</td>
+        <td>Beginner's Trio Kit</td>
+        <td>15ml</td>
+        <td>$66.67</td>
+        <td>$50.00</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>3217</td>
+        <td>Essential Oil 5 Faves Kit</td>
+        <td>15ml</td>
+        <td>$102.50</td>
+        <td>$102.50</td>
+        <td>102.5</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>4003</td>
+        <td>Lifleong Vitality &amp; Oil Trio Kit</td>
+        <td>15ml</td>
+        <td>LRP Only</td>
+        <td>$120.00</td>
+        <td>110</td>
+      </tr>
+      <tr>
+        <td>21400001</td>
+        <td>Family Essentials Kit</td>
+        <td>5ml</td>
+        <td>$166.67</td>
+        <td>$125.00</td>
+        <td>115</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>21300001</td>
+        <td>Family Essentials + Beadlets Enr. Kit</td>
+        <td>5ml</td>
+        <td>$186.50</td>
+        <td>$150.00</td>
+        <td>110</td>
+      </tr>
+      <tr>
+        <td>32950001</td>
+        <td>Cleanse &amp; Restore Enrollment Kit</td>
+        <td>15ml</td>
+        <td>$259.93</td>
+        <td>$195.00</td>
+        <td>125</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>41180001</td>
+        <td>Home Essentials Kit</td>
+        <td>15ml</td>
+        <td>$366.57</td>
+        <td>$275.00</td>
+        <td>225</td>
+      </tr>
+      <tr>
+        <td>21290001</td>
+        <td>Natural Solutions Kit</td>
+        <td>15ml</td>
+        <td>$646.08</td>
+        <td>$550.00</td>
+        <td>400</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>20580001</td>
+        <td>Oil Sharing Kit</td>
+        <td>(3)15ml</td>
+        <td>$1466.30</td>
+        <td>$1100.0</td>
+        <td>1000</td>
+      </tr>
+      <tr>
+        <td>21280001</td>
+        <td>Every Oil Kit</td>
+        <td>15ml</td>
+        <td>$2366.07</td>
+        <td>$1775.00</td>
+        <td>1400</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>21270001</td>
+        <td>Diamond Kit</td>
+        <td>15ml</td>
+        <td>$3332.50</td>
+        <td>$2500.00</td>
+        <td>2000</td>
+      </tr>
+    </tbody>
+  </table>
+  
+
+  </div>
+  </div>
+</body>
+</html>
