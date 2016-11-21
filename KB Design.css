@@ -1,6 +1,16 @@
-/*   * {
+/*  * {
   border-style: solid;
 } */
+
+.search-bar {
+    position: fixed;
+    top: 11px;
+    width: 300px;
+    right: 20;
+    z-index: 10900;
+    text-align: right;
+    color: white;
+}
 
 .background-image {
   background-image: url("http://musicandmemory.org/wp-content/uploads/2013/03/lemon-sun.jpg");
@@ -15,6 +25,7 @@
 
 .BottomQuarter {
   background-color: white;
+  z-index: 199999;
 }
 
 .Center {
@@ -237,9 +248,9 @@ li.dropdown {
 
 #Index {
     position: fixed;
-    top: 194px;
-    width: 240px;
-    right: 20;
+    top: 222px;
+    width: 22.25%;
+    right: 7.5;
     list-style-type: none;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
@@ -261,7 +272,6 @@ li.dropdown {
 
 #Index li {
     text-align: center;
-    border-bottom: 1px solid #555;
 }
 
 #Index li:last-child {
@@ -281,12 +291,11 @@ li.dropdown {
 #CommonIssuesIndex {
     position: fixed;
     left: -20px;
-    top: 194px;
-    width: 250px;
+    top: 222px;
+    width: 21.2%;
     list-style-type: none;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
-    z-index: 10000;
     background: rgb(255, 255, 255); /* Fall-back for browsers that don't
                                     support rgba */
     background: rgba(255, 255, 255, 0.8);
@@ -336,4 +345,42 @@ tr {
 
 .TableRowGray {
   background-color: #ede7d7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
