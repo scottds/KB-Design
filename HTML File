@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-  <link rel="stylesheet" href="KB Design.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu:300i|Rubik|Open+Sans" rel="stylesheet">
   </head>
 <body>
@@ -88,13 +88,13 @@
   
   <div class="Index">
   <ul id="Index">
-  <!--<li><a href="https://doterra.com/US/en/p/lemon-oil">Product Information Page</a></li>-->
-  <li><a href="KB Design.html#Primary-Benefits">&#x261B; Primary Benefits</a></li>
-  <li><a href="KB Design.html#Common-Uses">&#x261B; Common Uses</a></li>
-  <li><a href="KB Design.html#Directions-for-use">&#x261B; Directions for Use</a></li>
-  <li><a href="KB Design.html#Products-with-Lemon">&#x261B; Products with Lemon</a></li>
-  <li><a href="KB Design.html#Kits-with-Lemon">&#x261B; Kits with Lemon</a></li>
-  <li><a href="KB Design.html#Upsell-Tips">&#x261B; Upsell Tips! &#x1F4B0;</a></li>
+  <li><a href="https://doterra.com/US/en/p/lemon-oil">&#x261B; Product Information Page</a></li>
+  <li><a href="index.html#Primary-Benefits">&#x261B; Primary Benefits</a></li>
+  <li><a href="index.html#Common-Uses">&#x261B; Common Uses</a></li>
+  <li><a href="index.html#Directions-for-use">&#x261B; Directions for Use</a></li>
+  <li><a href="index.html#Products-with-Lemon">&#x261B; Products with Lemon</a></li>
+  <li><a href="index.html#Kits-with-Lemon">&#x261B; Kits with Lemon</a></li>
+  <li><a href="index.html#Upsell-Tips">&#x261B; Upsell Tips! &#x1F4B0;</a></li>
 </ul>
   </div>
   
