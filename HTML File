@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-  <link rel="stylesheet" type="text.css" href="KB Design.css">
+  <link rel="stylesheet" href="KB Design.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu:300i|Rubik|Open+Sans" rel="stylesheet">
   </head>
 <body>
@@ -16,13 +16,15 @@
       <a href="#">Logout</a>
     </div>
   </li>
-    <!--<li><form style="float:right" class="search" action="action_page.php">
-  Search Google:
-  <input type="search" name="googlesearch">
-  <input type="submit">
-      </form></li> -->
+
 </ul>
   </div>
+    
+        <li><form class="search-bar" action="action_page.php">
+  &#x1F50E;
+  <input type="search" name="googlesearch">
+  <input type="submit">
+      </form></li>
   
   <img id="doterra" src="https://s3-us-west-2.amazonaws.com/hybrisproduction/Imagery/USA-English/16x9_1000x562_official_doterra_corporate_logo_us_web_english.jpg" alt="doTERRA Logo Green" width="200">
 
@@ -74,7 +76,7 @@
 <div class="CommonIssues">
   <ul id="CommonIssuesIndex">
     <li style="color:red;font-size:25px"><strong>&#x1F514; Current Issues</strong></li>
-  <li><a href="news.asp">&#x2022; Seeing a "Backorder" message?</a></li>
+  <li id="myBtn"><a>&#x2022; Seeing a "Backorder" message?</a></li>
   <li><a href="contact.asp">&#x2022; "Why is my oil cloudy?"</a></li>
   <li><a href="contact.asp">&#x2022; "My oil is cracked / broken / leaking."</a></li>
   <li><a href="contact.asp">&#x2022; "My oil smells rancid."</a></li>
@@ -146,20 +148,154 @@
   
     <h1><a id="Products-with-Lemon">Products with Lemon</a></h1>
   
-  <ul class="Centered">
-    <li>Cheer</li>
-    <li>Citrus Bliss</li>
-    <li>Breathe</li>
-    <li>Elevation</li>
-    <li>Lemon</li>
-    <li>Slim& Sassy Products</li>
-    <li>A2Z Chewables</li>
-    <li>GX Assist</li>
-    <li>TriEase Softgels</li>
-    <li>Citrus Bliss Invigorating Bath Bar</li>
-    <li>TerraGreens</li>
-    <li>Conditioner</li>
-  </ul>
+  <table class="wikitable-ms-rteTable-6">
+    <tbody>
+      <tr>
+        <th style="width:72px;" class="KitTableHead">SKU</th>
+        <th style="width:200px;" class="KitTableHead">Name</th>
+        <th style="width:88px;" class="KitTableHead">Retail</th>
+        <th style="width:71px;" class="KitTableHead">Wholesale</th>
+        <th style="width:34px;" class="KitTableHead">PV</th>
+      </tr>
+      <tr>
+        <td>31720001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/doterra-cheer">Cheer (5ml)</a></td>
+        <td>$33.33</td>
+        <td>$25.00</td>
+        <td>25</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>60200146</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/doterra-cheer">Cheer (10ml Touch)</a></td>
+        <td>$21.67</td>
+        <td>$16.25</td>
+        <td>16.25</td>
+      </tr>
+      <tr>
+        <td>31020001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/citrus-bliss">Citrus Bliss (15ml)</a></td>
+        <td>$20.00</td>
+        <td>$15.00</td>
+        <td>15</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>49370001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/breathe">Breathe (15ml)</a></td>
+        <td>$26.66</td>
+        <td>$20.00</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>35460001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/breathe-drops">Breathe Respiratory Drops</a></td>
+        <td>$19.33</td>
+        <td>$14.50</td>
+        <td>14.5</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>34290001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/breathe-vapor-stick">Breathe Vapor Stick</a></td>
+        <td>$11.33</td>
+        <td>$8.50</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>60200192</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/doterra-touch">Breathe (10ml Touch)</a></td>
+        <td>$17.33</td>
+        <td>$13.00</td>
+        <td>13</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>31040001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/elevation">Elevation</a></td>
+        <td>$49.33</td>
+        <td>$37.00</td>
+        <td>37</td>
+      </tr>
+      <tr>
+        <td>31370001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/slim-sassy-oil">Slim & Sassy (15ml)</a></td>
+        <td>$32.67</td>
+        <td>$24.50</td>
+        <td>24.5</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>34270001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/slim-sassy-softgels">Slim & Sassy Softgels</a></td>
+        <td>$46.00</td>
+        <td>$34.50</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>35200001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/slim-sassy-chocolate-trim-shake">Slim & Sassy Chocolate Trim Shake</a></td>
+        <td>$52.67</td>
+        <td>$39.50</td>
+        <td>25</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>35180001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/slim-sassy-vanilla-trim-shake">Slim & Sassy Vanilla Trim Shake</a></td>
+        <td>$52.67</td>
+        <td>$39.50</td>
+        <td>25</td>
+      </tr>
+            <tr>
+        <td>35440001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/slim-sassy-v-shake">
+Slim & Sassy V Shake</a></td>
+        <td>$52.67</td>
+        <td>$39.50</td>
+        <td>25</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>34500001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/a2z-vitamin-chewables">
+a2z Vitamin Chewables</a></td>
+        <td>$26.00</td>
+        <td>$19.50</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>35040001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/gx-assist">GX Assist</a></td>
+        <td>$34.67</td>
+        <td>$26.00</td>
+        <td>26</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>49310001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/triease-softgels">
+Triease Softgels</a></td>
+        <td>$30.00</td>
+        <td>$22.50</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>36130001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/citrus-bliss-invigorating-bath-bar">
+Citrus Bliss Invigorating Bath Bar</a></td>
+        <td>$9.32</td>
+        <td>$6.99</td>
+        <td>5</td>
+      </tr>
+      <tr class="TableRowGray">
+        <td>60120001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/terragreens">TerraGreens</a></td>
+        <td>$37.33</td>
+        <td>$28.00</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>36230001</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/smoothing-conditioner">Smoothing Conditioner</a></td>
+        <td>$30.67</td>
+        <td>$23.00</td>
+        <td>23</td>
+      </tr>
+    </tbody>
+  </table>
   
     <h1><a id="Kits-with-Lemon">Kits with Lemon</a></h1>
   <table class="wikitable-ms-rteTable-6">
@@ -182,7 +318,7 @@
       </tr>
       <tr class="TableRowGray">
         <td>3214</td>
-        <td>Beginner's Trio Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/beginners-trio">Beginner's Trio Kit</a></td>
         <td>15ml</td>
         <td>$66.67</td>
         <td>$50.00</td>
@@ -206,7 +342,7 @@
       </tr>
       <tr>
         <td>21400001</td>
-        <td>Family Essentials Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/family-essentials-kit">Family Essentials Kit</a></td>
         <td>5ml</td>
         <td>$166.67</td>
         <td>$125.00</td>
@@ -214,7 +350,7 @@
       </tr>
       <tr class="TableRowGray">
         <td>21300001</td>
-        <td>Family Essentials + Beadlets Enr. Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/family-Essentials-beadlets-enrollment-kit">Family Essentials + Beadlets Enr. Kit</a></td>
         <td>5ml</td>
         <td>$186.50</td>
         <td>$150.00</td>
@@ -222,7 +358,7 @@
       </tr>
       <tr>
         <td>32950001</td>
-        <td>Cleanse &amp; Restore Enrollment Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/cleanse-restore-enrollment-kit">Cleanse &amp; Restore Enrollment Kit</a></td>
         <td>15ml</td>
         <td>$259.93</td>
         <td>$195.00</td>
@@ -230,7 +366,7 @@
       </tr>
       <tr class="TableRowGray">
         <td>41180001</td>
-        <td>Home Essentials Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/home-essentials-enrollment-kit">Home Essentials Enrollment Kit</a></td>
         <td>15ml</td>
         <td>$366.57</td>
         <td>$275.00</td>
@@ -238,7 +374,7 @@
       </tr>
       <tr>
         <td>21290001</td>
-        <td>Natural Solutions Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/natural-solutions-enrollment-kit">Natural Solutions Enrollment Kit</a></td>
         <td>15ml</td>
         <td>$646.08</td>
         <td>$550.00</td>
@@ -246,7 +382,7 @@
       </tr>
       <tr class="TableRowGray">
         <td>20580001</td>
-        <td>Oil Sharing Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/oil-sharing-kit">Oil Sharing Kit</a></td>
         <td>(3)15ml</td>
         <td>$1466.30</td>
         <td>$1100.0</td>
@@ -254,7 +390,7 @@
       </tr>
       <tr>
         <td>21280001</td>
-        <td>Every Oil Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/every-oil-kit-enrollment-kit">Every Oil Kit</a></td>
         <td>15ml</td>
         <td>$2366.07</td>
         <td>$1775.00</td>
@@ -262,7 +398,7 @@
       </tr>
       <tr class="TableRowGray">
         <td>21270001</td>
-        <td>Diamond Kit</td>
+        <td><a href="http://memberservices.corp.doterra.net/kb/diamond-kit">Diamond Kit</a></td>
         <td>15ml</td>
         <td>$3332.50</td>
         <td>$2500.00</td>
@@ -274,5 +410,45 @@
 
   </div>
   </div>
+  
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    <p>Some text in the Modal..</p>
+  </div>
+  
+<script>
+  // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+  </script>
+  
+</div>
+  
 </body>
 </html>
